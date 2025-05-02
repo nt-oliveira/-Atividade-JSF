@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.campo {
+    width: 250px;
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+

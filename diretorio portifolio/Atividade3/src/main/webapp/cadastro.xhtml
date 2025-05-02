@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+    <title>Cadastro de Usuário</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</h:head>
+<h:body>
+    <h:form>
+        <h1>Cadastre seu nome aqui:</h1>
+
+        <h:outputLabel value="Nome:" />
+        <h:inputText value="#{pessoa.nome}" styleClass="campo" />
+        <br/><br/>
+
+        <h:commandButton value="Salvar" action="#{pessoa.salvar}" />
+        <br/><br/>
+
+        <h:outputText value="Nomes cadastrados:" /><br/>
+        <ui:repeat value="#{pessoa.nomes}" var="n">
+            <h:outputText value="#{n}" /><br/>
+        </ui:repeat>
+     </h:form>
+</h:body>
+</html>
