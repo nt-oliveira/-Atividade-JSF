@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="diretorio portifolio/Atividade3/src/main/java"/>
+	<classpathentry kind="lib" path="diretorio portifolio/Atividade1/src/main/webapp/WEB-INF/lib/javax.faces-2.3.0.jar"/>
+	<classpathentry kind="lib" path="diretorio portifolio/Atividade2/src/main/webapp/WEB-INF/lib/javax.faces-2.3.0.jar"/>
+	<classpathentry kind="lib" path="diretorio portifolio/Atividade3/src/main/webapp/WEB-INF/lib/javax.faces-2.3.0.jar"/>
+	<classpathentry kind="output" path="diretorio portifolio/Atividade3/build/classes"/>
+</classpath>
